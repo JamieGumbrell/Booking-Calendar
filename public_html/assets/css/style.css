@@ -1,0 +1,214 @@
+/* Global Variables */
+:root{
+	--table-separation: 30px;
+}
+
+/* Full width website */
+body{
+	padding:0px;
+}
+
+/* Booking Formatting */
+.booking-overlay{
+  position: absolute;
+  z-index: 10;
+ }
+ 
+.no-gutter{
+	padding:2px;
+}
+
+.calendar div{
+	height:40px;
+}
+
+.btn .booking-title{
+	font-family:sans-serif;
+	font-size:18px;
+	padding-left:10%;
+	padding-right:10%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.btn .booking-user{
+	font-family:sans-serif;
+	font-size:16px;
+}
+
+.btn .booking-notes{
+	font-family:sans-serif;
+	font-size:14px;
+
+}
+.btn .booking-notes a{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;
+   -webkit-box-orient: vertical;
+}
+
+/* Navigation Bar */
+.navbar{
+	background-color:#4CAF50;
+	padding:0px 0px 0px 10px;
+	padding:0px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+.navbar-dark .navbar-nav .nav-text{
+	display:block;
+  padding: .5rem 1rem;
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	background-color:#388E3C;
+}
+
+/* Settings Button */
+.fa-cog{
+	color:white;
+	font-size:30px;
+	padding:8px;
+	
+}
+
+.fa-cog:hover{
+	background-color:#388E3C;
+}
+
+/* Help Button */
+.fa-question{
+	color:white;
+	font-size:30px;
+	padding:8px;
+	
+}
+
+.fa-question:hover{
+	background-color:#388E3C;
+}
+
+.help-content{
+	display:none;
+	background-color:#388E3C;
+	font-size:16px;
+	width:250px;
+	padding:15px 10px;
+	color:white;
+	z-index: 2;
+}
+
+.help:hover .help-content{
+	position:absolute;
+	display:block;
+}
+
+/* Colors */
+.btn-booking{
+	color:white;
+}
+
+.btn-booking:hover{
+	filter:brightness(85%);
+	color:#CCC;
+}
+
+.booking-red{
+	background-color:#D32F2F;
+}
+
+.booking-orange{
+	background-color:#E64A19;
+}
+
+.booking-blue{
+	background-color:#1976D2;
+}
+
+.booking-green{
+	background-color:#388E3C;
+}
+.booking-gray{
+	background-color:#616161;
+}
+
+.booking-purple{
+	background-color:#7B1FA2;
+}
+
+.booking-pink{
+	background-color:#FF4081;
+}
+
+.booking-yellow{
+	background-color:#FFC107;
+	color:black;
+}
+
+/* Selection Calendar */
+.calendar-sm{
+    font-size: 10px;
+}
+
+.calendar-sm .title{
+    font-size: 14px;
+}
+
+.btn-circle {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.btn-today{
+	border-style:solid;
+	border-color:red;
+	border-width:2px;
+}
+
+.btn-today:hover{
+	border-style:solid;
+	border-color:red;
+	border-width:2px;
+}
+
+
+/* Add Booking Button */
+.btn-xl-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 30px;
+}
+
+.footer{
+	position:fixed;
+	bottom:15px;
+	right:15px;
+}
+
+/* Popup Message */
+#popup {
+	background-color: rgba(0, 0, 0, 0.7);
+	color:white;
+	z-index: 999;
+	position: fixed;
+	left: 0;
+	top:0;
+	padding-top: 40vh;
+	width: 100%;
+	height: 100%;
+	display:block;
+}
+

@@ -1,0 +1,4 @@
+[03-Sep-2020 04:11:56 CST6CDT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/customer/www/jamieg.sgedu.site/public_html/index.php on line 3
+[03-Sep-2020 04:49:10 CST6CDT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/customer/www/jamieg.sgedu.site/public_html/update.php on line 123
+[03-Sep-2020 05:01:01 CST6CDT] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/customer/www/jamieg.sgedu.site/public_html/settings.php on line 25
+[03-Sep-2020 06:44:12 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/customer/www/jamieg.sgedu.site/public_html/delete.php on line 22
